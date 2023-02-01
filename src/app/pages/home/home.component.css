@@ -1,0 +1,73 @@
+.banner{
+  background-image: url('../../../assets/img/bannerimg.jpg');
+  height: 600px;
+  background-position: center top ;
+  background-size: cover;
+}
+.content{
+  top: 30%;
+  left: 20%;
+  position: absolute;
+}
+.content h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.content a {
+  text-decoration: none;
+  background-color: #ffff;
+  color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.content a:hover{
+  background-color: var(--primary-color);
+  color: #ffff;
+}
+.stepBox{
+  background-color: black;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.stepBox h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.stepBox p{
+  font-size: 20px;
+  color: #ffff;
+}
+.highlight{
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+.dressBox{
+  padding: 10px 5px;
+
+}
+.dressBox img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.dressBox h1{
+  font-size: 18px;
+  margin-top:20px ;
+  font-weight: bold;
+}
+.viewmorebtn{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color:rgb(52, 49, 49);
+  padding: 10px 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
